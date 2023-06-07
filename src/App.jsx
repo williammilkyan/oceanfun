@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { TitleComponent } from './TitleComponent';
 import { BodyComponent } from './BodyComponent';
-import './App.css'
+
 
 function App() {
   const [showbg, setShowbg] = useState(false);
