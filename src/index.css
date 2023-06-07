@@ -14,7 +14,7 @@ div {
 #fact {
 	display: flex;
 	justify-content: center;
-  position: fixed;
+  
 	margin-top: 100px;
 	width: 80%;
 	font-size: 5vw;
@@ -24,14 +24,16 @@ div {
 .animals {
 	display: flex;
 	flex-direction: row;
-	position: fixed;
+	
 	width: 90%;
 	margin-top: 240px;
-	z-index: 2
+	z-index: 2;
+	justify-content: space-evenly;
 }
 
 .animal {
-	width: 33.3%;
+	width: 500px;
+	height: 500px;
 }
 
 @media only screen and (max-width: 670px) {

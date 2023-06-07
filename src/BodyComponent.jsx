@@ -1,6 +1,6 @@
-import dolphin from "/images/dolphin.jpg";
-import lobster from "/images/lobster.jpg";
-import starfish from "/images/starfish.jpg"
+import dolphin from "/images/dolphin.png";
+import lobster from "/images/lobster.png";
+import starfish from "/images/starfish.png";
 
 export function BodyComponent ({showbg}) {
     const animals = {
