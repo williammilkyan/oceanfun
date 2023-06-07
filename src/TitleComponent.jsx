@@ -1,9 +1,9 @@
-
+import ocean from "/images/ocean.jpg";
 
 export function TitleComponent ({showbg, onClick}) {
     const title = '';
     const background = <img className='background' alt='ocean'
-    src="./images/ocean.jpg" />;
+    src={ocean}/>;
     
 
 
